@@ -1,0 +1,33 @@
+
+.card{
+    /* width:20em; */
+    border-radius: 20px;
+    transition: margin-top 0.1s;
+}
+
+.card:hover{
+    margin-top: -2px;
+    box-shadow: 1px 2px 5px 2px blue;
+}
+
+
+/* card styling starts */
+
+.card-title{
+    font-size: 12.5px;
+    letter-spacing: 2.5px;
+    color: rgb(196, 196, 196);
+}
+
+.price{
+    font-size:40px;
+}
+
+.period{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn{
+    border-radius:25px;
+}
